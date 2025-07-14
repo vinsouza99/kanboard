@@ -19,9 +19,11 @@ const Header: React.FC = () => {
           <li>
             <a href="#techstack">Stack</a>
           </li>
+          {/*
           <li>
             <a href="#contact"> Contact</a>
           </li>
+          */}
         </ul>
       </nav>
     </header>
