@@ -75,7 +75,7 @@ const MoveTaskModal: React.FC<Props> = ({ columnId, onClose, task }) => {
             {columnId !== "inProgress" && (
               <option value="inProgress">In Progress</option>
             )}
-            {columnId !== "done" && <option value="todo">Done</option>}
+            {columnId !== "done" && <option value="done">Done</option>}
           </select>
         </div>
 

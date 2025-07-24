@@ -80,7 +80,7 @@ const TaskCard: React.FC<Props> = ({ task, fromColumn }) => {
       <div
         {...listeners}
         {...attributes}
-        className="flex flex-col flex-grow-2 p-4"
+        className="taskCard flex flex-col flex-grow-2 p-4"
       >
         <h4 className="font-semibold text-gray-800">{task.title}</h4>
         {task.description && (
@@ -90,7 +90,7 @@ const TaskCard: React.FC<Props> = ({ task, fromColumn }) => {
       <div className="flex flex-shrink-1">
         <div className="flex-shrink-0 relative" ref={menuRef}>
           <button
-            className="text-gray-500 p-2 hover:text-gray-800 focus:outline-none rounded-full hover:bg-gray-100 cursos-pointer"
+            className="task-menu-btn text-gray-500 p-2 hover:text-gray-800 focus:outline-none rounded-full hover:bg-gray-100 cursos-pointer"
             onClick={(e) => {
               e.stopPropagation(); // prevent click bubbling
               e.preventDefault();

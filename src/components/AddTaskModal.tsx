@@ -27,7 +27,7 @@ const AddTaskModal: React.FC<Props> = ({ columnId, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-transparent backdrop-blur-sm bg-opacity-50 flex items-center justify-center z-50">
+    <div id="addTaskModal" className="fixed inset-0 bg-transparent backdrop-blur-sm bg-opacity-50 flex items-center justify-center z-50">
       <form
         onSubmit={handleSubmit}
         className="bg-white/75 rounded-lg shadow-lg p-6 w-96 space-y-4"

@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <span className="visually-hidden">LinkedIn</span>
           </a>
         </li>
-        <li className="mx-2">
+        <li className="mx-2 mr-5">
           <a href="https://github.com/vinsouza99" target="_blank">
             <FaGithub className="inline-block align-middle" />
             <span className="visually-hidden">GitHub</span>

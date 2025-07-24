@@ -11,8 +11,8 @@ const initialState: BoardState = {
       tasks: [
         {
           id: "384y3984032",
-          title: "Test",
-          description: "Test task",
+          title: "Move to In Progress",
+          description: "Try it!",
           createdAt: new Date().toISOString(),
         },
       ],

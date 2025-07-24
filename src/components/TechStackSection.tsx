@@ -8,6 +8,12 @@ const TechStackSection: React.FC = () => {
       logoURL: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     },
     {
+      name: "Vite",
+      description:
+        "A fast build tool that provides a development server and bundles your code for production.",
+      logoURL: "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
+    },
+    {
       name: "TypeScript",
       description:
         "A typed superset of JavaScript that compiles to plain JavaScript.",
@@ -23,9 +29,14 @@ const TechStackSection: React.FC = () => {
       description: "A predictable state container for JavaScript apps.",
       logoURL: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     },
+    {
+      name: "Cypress",
+      description: "A JavaScript end-to-end testing framework.",
+      logoURL: "https://cdn.worldvectorlogo.com/logos/cypress-1.svg",
+    },
   ];
   return (
-    <section id="techstack" className="px-8 pt-10">
+    <section id="techstack" className="px-8 pt-25 min-h-screen">
       <h2 className="text-3xl font-bold text-center mb-10 text-white">
         Tech Stack
       </h2>
